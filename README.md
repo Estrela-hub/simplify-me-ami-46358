@@ -1,17 +1,26 @@
 # simplify_me
 
-A new Flutter project.
+Aplicação móvel funcional desenvolvida como Projeto Final para a unidade curricular de Aplicações Multimédia Interativas (Mestrado em Engenharia Informática e Multimédia - ISEL).
 
-## Getting Started
+O SimplifyMe é uma solução integrada que combina organização pessoal e bem-estar mental numa interface limpa e intuitiva.
 
-This project is a starting point for a Flutter application.
+⚙️ Framework: Flutter (Abordagem Multiplataforma)
 
-A few resources to get you started if this is your first Flutter project:
+📱 Funcionalidades Principais
+📅 Calendário: Criação, edição e remoção de eventos pessoais.
+✅ Rotinas: Definição de tarefas diárias com acompanhamento visual do progresso.
+📝 Notas Multimédia: Criação de notas de texto, gravação de notas de voz e captura de fotografias.
+⏱️ Temporizador de Meditação: Sessões personalizáveis com seleção de sons de ambiente e alertas suaves.
+🎯 Requisitos Multimédia Implementados
+A aplicação foi desenvolvida para cumprir rigorosamente os requisitos do enunciado:
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Inputs: Touch (navegação base), Microfone (gravação de notas de voz) e Câmara (captura de imagens nas notas).
+Feedbacks: Visual (destaques de cor e barras de progresso), Texto, Áudio (som ambiente e gongo no temporizador)
+.
+📊 Módulo de Avaliação de Usabilidade
+Como destaque técnico do projeto, a aplicação inclui um sistema de logging proprietário (InteractionLogger). Este módulo opera em segundo plano e permite iniciar e terminar tarefas de teste. Regista automaticamente todos os toques no ecrã, timestamps e ecrãs visitados, calculando estatísticas descritivas (Média, Desvio Padrão, Taxa de Sucesso) em tempo real diretamente na aplicação, sem necessidade de exportar ficheiros externos durante os testes.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Nota: O botão flutuante laranja presente nos ecrãs serve exclusivamente para controlar este módulo de testes.
+
+👤 Autor
+Miguel Estrela - 46358
